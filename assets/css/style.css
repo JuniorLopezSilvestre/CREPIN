@@ -511,3 +511,15 @@ textarea {
 		display: block;
 	}
 }
+
+/*Eliminar después de carousel*/
+
+.owl-carousel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.owl-carousel div img {
+    object-fit: contain;
+    width: 100%;
+}
